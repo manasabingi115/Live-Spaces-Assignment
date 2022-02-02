@@ -1,4 +1,49 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+body {
+  background-color: rgb(248, 244, 244);
+  position: relative;
+  top: 0px;
+}
 .App {
   font-family: sans-serif;
-  text-align: center;
+  margin-left: 30px;
+}
+.marked-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.filters {
+  border: 1.8px solid rgb(235, 233, 233);
+  width: 190px;
+  padding: 8px;
+  border-radius: 50px;
+  margin-left: 15px;
+  font-weight: bold;
+  color: rgba(44, 44, 44, 0.973);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filters-block {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.small-div {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 50px;
+  width: 130px;
+  background-color: rgba(41, 40, 40, 0.932);
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 13px;
 }
